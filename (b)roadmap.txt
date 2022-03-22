@@ -1,0 +1,40 @@
+
+
+	Map létrehozása
+		basic setup:
+			Átmenetileg előre letöltött assetek használata
+			Tiled-del csinálunk 1-1 map-et
+			ezeket importáljuk Tiledbe
+		különböző layerek létrehozása
+		környezeti tényezők megalkotása (pl fa, virágok, házak stb)
+		collision és pályahatárok fixálása
+		hud layer
+			+ esetleg egy hulló faleveleket vagy ilyeneket mutató foreground layer
+			
+	Projekt létrehozása		
+		Render:
+			alapvető transition page-ek közt			
+			main menu:
+				map betöltése
+				különböző menük kezelése, pl main, saves menu
+			ingame menu:			
+				hud betöltése
+				egyéb: inventory, skill tree, conversation menu stb
+			battle menu:
+				külső osztályból rajzol igazából				
+		Logic:
+			player adatok (hp, unlockolt skillek, skin, inventory, current quest stb)
+			enemy adatok (hp, skills, skin)
+			skillek (sprite-ok, adatai, hangeffektek stb, 
+				igazából minden, ami egy skillhez köthető)
+			questek (szövege, célja, reward stb)
+			movement a mapon
+			triggerek pl enemybe sétáltál, közel vagy egy npc-hez
+				popupoljon egy F betű, hogy dumázz vele meg ilyenek
+			IO:
+				map importálása json fájlból
+				játékmenet mentése
+	Tremendous amount of bugfixing
+		   
+		
+	
