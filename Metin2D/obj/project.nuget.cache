@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f8r10gA33QrHka4c5hhAPM/oLRkztiQQklt9frLCtoVKj2AEO8XK43lV60DUH1GJUZkZgQFJsTK6q397pvH1GQ==",
+  "dgSpecHash": "tid8ImTFfAuCXdjcmfI/M6xdzujtqpOGIwZsTMPcE658fSG82MiPrWRWK2Z5Ur1ba5AjBWO9DG0Xqop4fTzsXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gyurk\\source\\repos\\cs\\halcyon\\Metin2D\\Metin2D.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gyurk\\source\\repos\\GyJonatan\\sourcecode\\Metin2D\\MainGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gyurk\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
