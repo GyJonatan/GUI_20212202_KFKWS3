@@ -22,6 +22,7 @@ namespace Metin2D
     {
         public MainWindow()
         {
+            //To go fullscreen type WindowState="Maximized" WindowStyle="None"  after the width property of the window
             InitializeComponent();
         }
     }

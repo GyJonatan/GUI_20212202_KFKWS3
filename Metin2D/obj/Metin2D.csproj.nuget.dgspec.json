@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonatan\\source\\repos\\cs\\Metin2D\\Metin2D\\Metin2D.csproj": {}
+    "C:\\Users\\gyurk\\source\\repos\\cs\\halcyon\\Metin2D\\Metin2D.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonatan\\source\\repos\\cs\\Metin2D\\Metin2D\\Metin2D.csproj": {
+    "C:\\Users\\gyurk\\source\\repos\\cs\\halcyon\\Metin2D\\Metin2D.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonatan\\source\\repos\\cs\\Metin2D\\Metin2D\\Metin2D.csproj",
+        "projectUniqueName": "C:\\Users\\gyurk\\source\\repos\\cs\\halcyon\\Metin2D\\Metin2D.csproj",
         "projectName": "Metin2D",
-        "projectPath": "C:\\Users\\Jonatan\\source\\repos\\cs\\Metin2D\\Metin2D\\Metin2D.csproj",
-        "packagesPath": "C:\\Users\\Jonatan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonatan\\source\\repos\\cs\\Metin2D\\Metin2D\\obj\\",
+        "projectPath": "C:\\Users\\gyurk\\source\\repos\\cs\\halcyon\\Metin2D\\Metin2D.csproj",
+        "packagesPath": "C:\\Users\\gyurk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gyurk\\source\\repos\\cs\\halcyon\\Metin2D\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jonatan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gyurk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
