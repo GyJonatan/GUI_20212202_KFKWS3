@@ -15,7 +15,7 @@ namespace Halcyon.Logic
         //A MAPPOK 20x11esek 11 magas 20 szeles
         public enum MapItems
         { 
-            player, road, door, blocked, enemy
+            player, road, wall, fight, talk
         }
 
         public MapItems[,] GameMatrix { get; set; }
@@ -31,33 +31,30 @@ namespace Halcyon.Logic
         }
         private void LoadInside(string path)
         {
-            //átirni, hogy a collision legyen blocked enum a mapon
-            string[] lines = File.ReadAllLines(path);
-            GameMatrix = new MapItems[int.Parse(lines[1]), int.Parse(lines[0])];
-            for (int i = 0; i < GameMatrix.GetLength(0); i++)
+            string json = File.ReadAllText("collision.json"); // map : 40*33
+
+            int[,] temp = JsonConvert.DeserializeObject<int[,]>(json);
+
+            GameMatrix = new MapItems[temp.GetLength(0), temp.GetLength(1)];
+
+            for (int i = 0; i < temp.GetLength(0); i++)
             {
-                for (int j = 0; j < GameMatrix.GetLength(1); j++)
+                for (int j = 0; j < temp.GetLength(1); j++)
                 {
-                    GameMatrix[i, j] = ConvertToEnum(lines[i + 2][j]);
+                    GameMatrix[i, j] = ConvertToEnum(temp[i, j]);
                 }
             }
         }
 
-        static Map ImportMap(string mapName)
-        {
-            string json = File.ReadAllText(mapName + ".json");
-            var maps = JsonConvert.DeserializeObject<List<Map>>(json).Where(x => x.name == "collision").Select(x => x.data);
-            return new Map(maps.FirstOrDefault());
-        }
 
-        private MapItems ConvertToEnum(char v)
+        private MapItems ConvertToEnum(int matrixItem)
         {
-            switch (v)
+            switch (matrixItem)
             {
-                // EZEN MODOSITANI JSON-ra
-                case 'P': return MapItems.player;
-                case 'D': return MapItems.door;
-                case 'b': return MapItems.blocked;
+                case 1: return MapItems.wall;
+                case 2: return MapItems.fight;
+                case 3: return MapItems.talk;
+
                 default:
                     return MapItems.road;
             }
