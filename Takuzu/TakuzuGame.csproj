@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\backgroundTakuzu.png" />
     <None Remove="Images\Files.png" />
     <None Remove="Images\TileBlue.png" />
     <None Remove="Images\TileEmpty.png" />
@@ -16,6 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Images\backgroundTakuzu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\TileBlue.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

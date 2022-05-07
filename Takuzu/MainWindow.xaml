@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Halcyon.TakuzuGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="830" Width="1476">
     <!--WindowState="Maximized" WindowStyle="None"-->
-        
+    <Window.Background>
+        <ImageBrush ImageSource="./Images/backgroundTakuzu.png" />
+    </Window.Background>
     <Grid>
         <Frame Source="/Pages/Landing.xaml" NavigationUIVisibility="Hidden"/>        
     </Grid>

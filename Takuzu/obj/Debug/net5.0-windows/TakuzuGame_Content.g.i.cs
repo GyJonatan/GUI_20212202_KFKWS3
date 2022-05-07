@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/backgroundtakuzu.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tileblue.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tileempty.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tilegreen.png")]

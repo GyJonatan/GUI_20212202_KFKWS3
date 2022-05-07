@@ -63,7 +63,7 @@ namespace Halcyon.TakuzuGame.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TakuzuGame;component/pages/fourbyfour.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TakuzuGame_strxdsyz_wpftmp;component/pages/fourbyfour.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\FourByFour.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

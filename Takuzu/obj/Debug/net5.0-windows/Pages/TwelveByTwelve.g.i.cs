@@ -53,7 +53,7 @@ namespace Halcyon.TakuzuGame.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TakuzuGame;V1.0.0.0;component/pages/twelvebytwelve.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TakuzuGame;component/pages/twelvebytwelve.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\TwelveByTwelve.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

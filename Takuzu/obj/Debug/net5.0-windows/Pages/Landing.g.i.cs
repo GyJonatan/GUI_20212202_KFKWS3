@@ -102,7 +102,7 @@ namespace Halcyon.TakuzuGame.Pages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TakuzuGame;V1.0.0.0;component/pages/landing.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TakuzuGame;component/pages/landing.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Pages\Landing.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

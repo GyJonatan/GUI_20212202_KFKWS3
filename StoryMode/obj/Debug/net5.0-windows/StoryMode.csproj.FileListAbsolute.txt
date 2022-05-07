@@ -88,7 +88,6 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\bin\Debug\net5.0-windo
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\bin\Debug\net5.0-windows\StoryMode.pdb
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\bin\Debug\net5.0-windows\Microsoft.Toolkit.Mvvm.dll
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\obj\Debug\net5.0-windows\StoryMode.csproj.AssemblyReference.cache
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\obj\Debug\net5.0-windows\StoryMode_Content.g.cs
