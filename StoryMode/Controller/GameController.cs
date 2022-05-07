@@ -1,4 +1,4 @@
-﻿using Metin2D.Logic;
+﻿using Halcyon.Logic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Metin2D.Controller
+namespace Halcyon.Controller
 {
     class GameController //DONE
     {

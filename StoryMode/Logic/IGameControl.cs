@@ -1,6 +1,6 @@
-﻿using static Metin2D.Logic.GameLogic;
+﻿using static Halcyon.Logic.GameLogic;
 
-namespace Metin2D.Logic
+namespace Halcyon.Logic
 {
     internal interface IGameControl
     {

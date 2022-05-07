@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Metin2D
+namespace Halcyon
 {
     /// <summary>
     /// Interaction logic for App.xaml

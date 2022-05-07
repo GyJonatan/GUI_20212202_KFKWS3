@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Metin2D.Models
+namespace Halcyon.Models
 {
     public class Map
     {
