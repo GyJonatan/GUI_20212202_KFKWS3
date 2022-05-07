@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\Metin2D\\MainGame.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\GUI_20212202_KFKWS3_\\Metin2D\\MainGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\Metin2D\\MainGame.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\GUI_20212202_KFKWS3_\\Metin2D\\MainGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\Metin2D\\MainGame.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\GUI_20212202_KFKWS3_\\Metin2D\\MainGame.csproj",
         "projectName": "MainGame",
-        "projectPath": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\Metin2D\\MainGame.csproj",
-        "packagesPath": "C:\\Users\\gyurk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\Metin2D\\obj\\",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\GUI_20212202_KFKWS3_\\Metin2D\\MainGame.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\GUI_20212202_KFKWS3_\\Metin2D\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gyurk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

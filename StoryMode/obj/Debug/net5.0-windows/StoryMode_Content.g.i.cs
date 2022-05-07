@@ -9,11 +9,15 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/abandonedhouse.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/enemyninja.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/enemysensei.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/enemyskeleton.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/forestpath.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/player.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/shack.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/surface.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/surfacecollision.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/talkprincess.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/townlower.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/townmiddle.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/townupper.png")]

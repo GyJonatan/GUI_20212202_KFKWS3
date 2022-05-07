@@ -11,11 +11,9 @@ namespace Halcyon.StoryMode.Logic
 {
     public class GameLogic : IGameLogic, IGameControl
     {
-        //KELL MEG EZEN A SZARON DOLGOZNI
-        //A MAPPOK 20x11esek 11 magas 20 szeles
         public enum MapItems
-        { 
-            player, road, wall, fight, talk
+        {
+            player, road, wall, talkPrincess, Dojo, fightSkeleton, fightNinja, fightSensei,
         }
 
         public MapItems[,] GameMatrix { get; set; }
@@ -27,8 +25,6 @@ namespace Halcyon.StoryMode.Logic
         private void LoadInside()
         {
             string json = File.ReadAllText("collision.json"); // map : 40*33
-
-            //int[,] temp = JsonConvert.DeserializeObject<int[,]>(json);
 
             int[,] temp = new int[33, 40];
 
@@ -48,6 +44,7 @@ namespace Halcyon.StoryMode.Logic
             }
 
             temp[26, 26] = 9;
+
             GameMatrix = new MapItems[temp.GetLength(0), temp.GetLength(1)];
 
             for (int i = 0; i < temp.GetLength(0); i++)
@@ -57,8 +54,6 @@ namespace Halcyon.StoryMode.Logic
                     GameMatrix[i, j] = ConvertToEnum(temp[i, j]);
                 }
             }
-
-            //GameMatrix[26, 26] = MapItems.player; //31 27
         }
 
 
@@ -67,8 +62,11 @@ namespace Halcyon.StoryMode.Logic
             switch (matrixItem)
             {
                 case 1: return MapItems.wall;
-                case 2: return MapItems.fight;
-                case 3: return MapItems.talk;
+                case 2: return MapItems.fightSkeleton;
+                case 3: return MapItems.fightNinja;
+                case 4: return MapItems.fightSensei;
+                case 5: return MapItems.talkPrincess;
+                case 8: return MapItems.Dojo;
                 case 9: return MapItems.player;
 
                 default:
@@ -118,22 +116,26 @@ namespace Halcyon.StoryMode.Logic
                     break;
             }
 
-            //EZT AT KELL IRNI
 
             if (GameMatrix[i, j] == MapItems.road)
             {
                 GameMatrix[i, j] = MapItems.player;
                 GameMatrix[old_i, old_j] = MapItems.road;
             }
-            //else if (GameMatrix[i, j] == MapItems.door)
-            //{
-            //    //todo level vége
-            //    if (levels.Count > 0)
-            //    {
-            //        LoadNext(levels.Dequeue());
-            //    }
+            else if (GameMatrix[i, j] == MapItems.Dojo)
+            {
+                //megnyitni a takuzu-t
+                
+            }
+            else if (GameMatrix[i, j] == MapItems.talkPrincess)
+            {
+                //beszelgetos_ablak
+            }
+            else if (GameMatrix[i, j] == MapItems.fightSensei || GameMatrix[i, j] == MapItems.fightNinja || GameMatrix[i, j] == MapItems.fightSkeleton)
+            {
+                //boss-fightok
+            }
 
-            //}
 
         }
 

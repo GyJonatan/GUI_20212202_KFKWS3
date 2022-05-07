@@ -8,12 +8,16 @@
 
   <ItemGroup>
     <None Remove="Images\abandonedHouse.png" />
+    <None Remove="Images\enemyNinja.png" />
+    <None Remove="Images\enemySensei.png" />
+    <None Remove="Images\enemySkeleton.png" />
     <None Remove="Images\forestPath.png" />
     <None Remove="Images\player.bmp" />
     <None Remove="Images\player.png" />
     <None Remove="Images\shack.png" />
     <None Remove="Images\surface.png" />
     <None Remove="Images\surfaceCollision.png" />
+    <None Remove="Images\talkPrincess.png" />
     <None Remove="Images\townlower.png" />
     <None Remove="Images\townMiddle.png" />
     <None Remove="Images\townUpper.png" />
@@ -21,6 +25,15 @@
 
   <ItemGroup>
     <Content Include="Images\abandonedHouse.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemyNinja.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemySensei.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\enemySkeleton.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\forestPath.png">
@@ -36,6 +49,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\surfaceCollision.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\talkPrincess.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\townlower.png">

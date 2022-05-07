@@ -53,10 +53,22 @@ namespace Halcyon.StoryMode.Renderer
                         //    break;
                         //case GameLogic.MapItems.wall:
                         //    break;
-                        //case GameLogic.MapItems.fight:
-                        //    break;
-                        //case GameLogic.MapItems.talk:
-                        //    break;
+                        case GameLogic.MapItems.fightSkeleton:
+                            brush = new ImageBrush
+                                   (new BitmapImage(new Uri(Path.Combine("Images", "enemySkeleton.png"), UriKind.RelativeOrAbsolute)));
+                            break;
+                        case GameLogic.MapItems.fightNinja:
+                            brush = new ImageBrush
+                                   (new BitmapImage(new Uri(Path.Combine("Images", "enemyNinja.png"), UriKind.RelativeOrAbsolute)));
+                            break;
+                        case GameLogic.MapItems.fightSensei:
+                            brush = new ImageBrush
+                                   (new BitmapImage(new Uri(Path.Combine("Images", "enemySensei.png"), UriKind.RelativeOrAbsolute)));
+                            break;
+                        case GameLogic.MapItems.talkPrincess:
+                            brush = new ImageBrush
+                                   (new BitmapImage(new Uri(Path.Combine("Images", "talkPrincess.png"), UriKind.RelativeOrAbsolute)));
+                            break;
                         default:
                             break;
                     }
