@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\User\source\repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\
+C:\Users\User\source\repos\GUI_20212202_KFKWS3\Metin2D\obj\Release\net5.0-windows\
 MainGame
 none
 false
-TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\User\source\repos\GUI_20212202_KFKWS3\Metin2D\App.xaml
 11407045341
 
