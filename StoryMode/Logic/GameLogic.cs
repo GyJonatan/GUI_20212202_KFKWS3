@@ -22,19 +22,32 @@ namespace Halcyon.Logic
        
         public GameLogic()
         {
-            var mapFiles = Directory.GetFiles(Path.Combine(Directory.GetCurrentDirectory(), "Maps"), "*.map");
-
-            foreach (var item in mapFiles)
-            {
-                LoadInside(item);
-            }
+            LoadInside();
         }
-        private void LoadInside(string path)
+        private void LoadInside()
         {
             string json = File.ReadAllText("collision.json"); // map : 40*33
 
-            int[,] temp = JsonConvert.DeserializeObject<int[,]>(json);
+            //int[,] temp = JsonConvert.DeserializeObject<int[,]>(json);
 
+            int[,] temp = new int[33, 40];
+
+            int count = 0;
+            int max = 0;
+
+            for (int i = 0; i < temp.GetLength(0); i++)
+            {
+                while (count < 40) 
+                {
+                    int character = int.Parse(json[max + count].ToString());
+                    temp[i, count++] = character;
+                }
+                
+                max += count;
+                count = 0;
+            }
+
+            temp[26, 26] = 9;
             GameMatrix = new MapItems[temp.GetLength(0), temp.GetLength(1)];
 
             for (int i = 0; i < temp.GetLength(0); i++)
@@ -44,6 +57,8 @@ namespace Halcyon.Logic
                     GameMatrix[i, j] = ConvertToEnum(temp[i, j]);
                 }
             }
+
+            //GameMatrix[26, 26] = MapItems.player; //31 27
         }
 
 
@@ -54,6 +69,7 @@ namespace Halcyon.Logic
                 case 1: return MapItems.wall;
                 case 2: return MapItems.fight;
                 case 3: return MapItems.talk;
+                case 9: return MapItems.player;
 
                 default:
                     return MapItems.road;
@@ -103,22 +119,22 @@ namespace Halcyon.Logic
             }
 
             //EZT AT KELL IRNI
-            /*
-            if (GameMatrix[i, j] == LabyItem.floor)
-            {
-                GameMatrix[i, j] = LabyItem.player;
-                GameMatrix[old_i, old_j] = LabyItem.floor;
-            }
-            else if (GameMatrix[i, j] == LabyItem.door)
-            {
-                //todo level vége
-                if (levels.Count > 0)
-                {
-                    LoadNext(levels.Dequeue());
-                }
 
+            if (GameMatrix[i, j] == MapItems.road)
+            {
+                GameMatrix[i, j] = MapItems.player;
+                GameMatrix[old_i, old_j] = MapItems.road;
             }
-            */
+            //else if (GameMatrix[i, j] == MapItems.door)
+            //{
+            //    //todo level vége
+            //    if (levels.Count > 0)
+            //    {
+            //        LoadNext(levels.Dequeue());
+            //    }
+
+            //}
+
         }
 
         private int[] WhereAmI()

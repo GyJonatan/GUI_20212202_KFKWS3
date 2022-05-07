@@ -14,14 +14,11 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-window
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-windows\StoryMode.pdb
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-windows\Microsoft.Toolkit.Mvvm.dll
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.csproj.AssemblyReference.cache
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode_Content.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode_MarkupCompile.cache
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode_MarkupCompile.lref
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\MainWindow.baml
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.g.resources
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.AssemblyInfoInputs.cache
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.AssemblyInfo.cs
@@ -31,3 +28,9 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-window
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\ref\StoryMode.dll
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.pdb
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.genruntimeconfig.cache
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.g.resources
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-windows\Images\surfaceCollision.png
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-windows\Images\player.png

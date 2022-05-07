@@ -4,9 +4,19 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Halcyon"
+        xmlns:renderer="clr-namespace:Halcyon.Renderer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded">
+    <!--WindowState="Maximized"
+        WindowStyle="None"-->
+        
+    
+    <!--<Window.Background>
+        <ImageBrush ImageSource="./Images/surface.png" />
+    </Window.Background>-->
 
+    <Grid Name="grid">
+        <renderer:Display x:Name="display" />
+        <Image Source="/Images/surfaceCollision.png" Stretch="Fill"/>
     </Grid>
 </Window>
