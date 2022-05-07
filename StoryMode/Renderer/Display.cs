@@ -1,4 +1,4 @@
-﻿using Halcyon.Logic;
+﻿using Halcyon.StoryMode.Logic;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,7 +9,7 @@ using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
-namespace Halcyon.Renderer
+namespace Halcyon.StoryMode.Renderer
 {
     class Display : FrameworkElement
     {

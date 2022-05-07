@@ -1,6 +1,6 @@
-﻿using static Halcyon.Logic.GameLogic;
+﻿using static Halcyon.StoryMode.Logic.GameLogic;
 
-namespace Halcyon.Logic
+namespace Halcyon.StoryMode.Logic
 {
     internal interface IGameControl
     {

@@ -1,5 +1,5 @@
-﻿using Halcyon.Controller;
-using Halcyon.Logic;
+﻿using Halcyon.StoryMode.Controller;
+using Halcyon.StoryMode.Logic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Halcyon
+namespace Halcyon.StoryMode
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

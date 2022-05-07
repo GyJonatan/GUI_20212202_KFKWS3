@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Halcyon.Models
+namespace Halcyon.StoryMode.Models
 {
     public class Map
     {

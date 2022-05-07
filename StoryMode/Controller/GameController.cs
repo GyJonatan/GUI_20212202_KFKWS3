@@ -1,4 +1,4 @@
-﻿using Halcyon.Logic;
+﻿using Halcyon.StoryMode.Logic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Halcyon.Controller
+namespace Halcyon.StoryMode.Controller
 {
     class GameController //DONE
     {

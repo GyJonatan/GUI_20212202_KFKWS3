@@ -1,4 +1,4 @@
-﻿using Halcyon.Models;
+﻿using Halcyon.StoryMode.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Halcyon.Logic
+namespace Halcyon.StoryMode.Logic
 {
     public class GameLogic : IGameLogic, IGameControl
     {
