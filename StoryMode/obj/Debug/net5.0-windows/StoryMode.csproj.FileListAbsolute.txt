@@ -109,3 +109,4 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\bin\Debug\net5.0-windo
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\bin\Debug\net5.0-windows\Images\enemySensei.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\bin\Debug\net5.0-windows\Images\enemySkeleton.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\bin\Debug\net5.0-windows\Images\talkPrincess.png
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3_\StoryMode\obj\Debug\net5.0-windows\StoryMode.csproj.AssemblyReference.cache
