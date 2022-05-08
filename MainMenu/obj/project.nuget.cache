@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sRnWeKVP1XKzse4xT/RMMQaoa1rbTWEgZm+RZn3FRaVw9BGIis56q4xvVk+O3bhbKK2xXeU3QlhAXlJUnv5v4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zsomb\\Source\\Repos\\GUI_20212202_KFKWS3\\MainMenu\\MainMenu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zsomb\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

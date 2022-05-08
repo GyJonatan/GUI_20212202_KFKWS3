@@ -1,0 +1,28 @@
+﻿<Window x:Class="Halcyon.MainMenu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Halcyon.MainMenu"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="16" FontFamily="Impact" AllowsTransparency="True" WindowStyle="None">
+
+    <Window.Background>
+        <ImageBrush ImageSource="/Images/hatter.png"/>
+    </Window.Background>
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        
+
+        <StackPanel Grid.Column="1">
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/play.png" Margin="0,70,0,0"/>
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/Credit.png" Margin="50"/>
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/quit.png" Click="Exit" Margin="0"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
