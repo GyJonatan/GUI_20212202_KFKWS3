@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MainMenu",
+    "\\MainMenu\\Pages",
+    "\\MainMenu\\Themes"
   ],
-  "SelectedNode": "\\GuiGameProject.sln",
+  "SelectedNode": "\\MainMenu\\Themes\\Generic.xaml",
   "PreviewInSolutionExplorer": false
 }

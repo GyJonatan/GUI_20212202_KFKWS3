@@ -119,8 +119,8 @@ C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\MainGame.AssemblyInfoInputs.cache
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\MainGame.AssemblyInfo.cs
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\MainGame.csproj.CoreCompileInputs.cache
-C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\MainGame.csproj.CopyComplete
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\MainGame.dll
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\ref\MainGame.dll
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\MainGame.pdb
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\MainGame.genruntimeconfig.cache
+C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Metin2D\obj\Debug\net5.0-windows\MainGame.csproj.AssemblyReference.cache

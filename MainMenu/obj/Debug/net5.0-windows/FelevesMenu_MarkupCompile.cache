@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\
+C:\Users\zsomb\source\repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\
 FelevesMenu
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\MainMenu\App.xaml
-4-2072365911
+C:\Users\zsomb\source\repos\GUI_20212202_KFKWS3\MainMenu\App.xaml
+3-333907145
 
-9-174771123
+8-49118846
 194-1589039108
-MainWindow.xaml;Pages\HowToPlay.xaml;Pages\Main.xaml;Themes\Generic.xaml;
+MainWindow.xaml;Pages\Credit.xaml;Themes\Generic.xaml;
 
 True
 

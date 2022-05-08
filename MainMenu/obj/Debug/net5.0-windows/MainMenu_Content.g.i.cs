@@ -9,7 +9,9 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/credit.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/ez.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/hatter.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/minta.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/play.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/quit.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/surface.png")]

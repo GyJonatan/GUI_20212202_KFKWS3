@@ -144,8 +144,8 @@ C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windo
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.AssemblyInfoInputs.cache
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.AssemblyInfo.cs
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.csproj.CoreCompileInputs.cache
-C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.csproj.CopyComplete
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.dll
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\ref\StoryMode.dll
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.pdb
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.genruntimeconfig.cache
+C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\StoryMode.csproj.AssemblyReference.cache

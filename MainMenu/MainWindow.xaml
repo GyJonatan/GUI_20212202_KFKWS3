@@ -19,7 +19,7 @@
         
 
         <StackPanel Grid.Column="1">
-            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/play.png" Margin="0,70,0,0"/>
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/play.png" Margin="0,70,0,0" Click="Play"/>
             <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/Credit.png" Margin="50"/>
             <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/quit.png" Click="Exit" Margin="0"/>
         </StackPanel>

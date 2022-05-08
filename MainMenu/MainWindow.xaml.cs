@@ -30,5 +30,12 @@ namespace Halcyon.MainMenu
            System.Environment.Exit(0);
 
         }
+
+        private void Play(object sender, RoutedEventArgs e)
+        {
+            var Playform = new Halcyon.StoryMode.MainWindow();
+            Playform.Show();
+
+        }
     }
 }

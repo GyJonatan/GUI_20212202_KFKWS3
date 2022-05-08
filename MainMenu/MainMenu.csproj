@@ -8,7 +8,9 @@
 
   <ItemGroup>
     <None Remove="Images\credit.png" />
+    <None Remove="Images\ez.png" />
     <None Remove="Images\hatter.png" />
+    <None Remove="Images\Minta.png" />
     <None Remove="Images\play.png" />
     <None Remove="Images\quit.png" />
     <None Remove="Images\surface.png" />
@@ -22,7 +24,13 @@
     <Content Include="Images\credit.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\ez.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\hatter.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Minta.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\play.png">
@@ -37,7 +45,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\" />
+    <ProjectReference Include="..\StoryMode\StoryMode.csproj" />
   </ItemGroup>
 
 </Project>
