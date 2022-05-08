@@ -22,7 +22,7 @@ namespace StoryMode.Pages
     {
         public PrincessDialog1()
         {
-            InitializeComponent();
+            //InitializeComponent();
         }
     }
 }

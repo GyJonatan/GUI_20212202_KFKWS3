@@ -19,5 +19,6 @@
     <Grid Name="grid">
         <renderer:Display x:Name="display" />
         <Image Source="/Images/surfaceCollision.png" Stretch="Fill"/>
+        <Image x:Name="dialogBox" Stretch="Fill" Height="266" Width="1309" VerticalAlignment="Bottom" Visibility="Hidden"/>
     </Grid>
 </Window>

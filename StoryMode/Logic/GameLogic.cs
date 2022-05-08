@@ -1,6 +1,7 @@
 ﻿using Halcyon.StoryMode.Models;
 using Halcyon.StoryMode.Renderer;
 using Newtonsoft.Json;
+using StoryMode.Pages;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -125,8 +126,9 @@ namespace Halcyon.StoryMode.Logic
             }
             else if (GameMatrix[i, j] == MapItems.Dojo)
             {
-                //megnyitni a takuzu-t
-                
+                var page = new MainWindow();
+                page.ShowDojomasterDialog();
+
             }
             else if (GameMatrix[i, j] == MapItems.talkPrincess)
             {

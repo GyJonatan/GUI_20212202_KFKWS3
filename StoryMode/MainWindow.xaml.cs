@@ -1,5 +1,6 @@
 ﻿using Halcyon.StoryMode.Controller;
 using Halcyon.StoryMode.Logic;
+using StoryMode.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,6 +47,35 @@ namespace Halcyon.StoryMode
         {
             display.SetSize(new Size(grid.ActualWidth, grid.ActualHeight));
             display.InvalidateVisual();
+        }
+
+        public void ShowPrincessDialog1()
+        {
+            dialogBox.Visibility = Visibility.Visible;
+            dialogBox.Source = new BitmapImage(new Uri("/Images/princessDialog1.png", UriKind.RelativeOrAbsolute));
+        }
+        public void ShowPrincessDialog2()
+        {
+            dialogBox.Visibility = Visibility.Visible;
+            dialogBox.Source = new BitmapImage(new Uri("/Images/princessDialog2.png", UriKind.RelativeOrAbsolute));
+        }
+        public void ShowDojomasterDialog()
+        {
+            dialogBox.Visibility = Visibility.Visible;
+            dialogBox.Source = new BitmapImage(new Uri("/Images/dojomasterDialog.png", UriKind.RelativeOrAbsolute));
+
+        }
+        public void HideImage()
+        {
+            dialogBox.Visibility = Visibility.Hidden;
+        }
+        private void EnterTraining_Click(object sender, RoutedEventArgs e, NavigationService navigationService)
+        {
+            var form = new TakuzuGame.MainWindow();
+            form.ShowDialog();
+
+            var ClickedButton = e.OriginalSource as NavigationButton;
+            navigationService.Navigate(ClickedButton.NavUri);
         }
     }
 }

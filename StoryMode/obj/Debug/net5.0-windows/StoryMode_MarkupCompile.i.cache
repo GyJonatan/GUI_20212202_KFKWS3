@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\StoryMode\App.xaml
-41162579234
+51366885003
 21-41320877
-14-102171897
+15214322373
 196-1206827585
-MainWindow.xaml;Pages\DojoDialog.xaml;Pages\PrincessDialog1.xaml;Pages\PrincessDialog2.xaml;
+MainWindow.xaml;Pages\DojoDialog.xaml;Pages\PrincessDialog1.xaml;Pages\PrincessDialog2.xaml;Themes\Generic.xaml;
 
 True
 

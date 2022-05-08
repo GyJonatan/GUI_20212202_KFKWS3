@@ -106,4 +106,10 @@
     <ProjectReference Include="..\Takuzu\TakuzuGame.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Page Update="Themes\Generic.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
+
 </Project>
