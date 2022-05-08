@@ -8,16 +8,24 @@
 
   <ItemGroup>
     <None Remove="Images\abandonedHouse.png" />
+    <None Remove="Images\backgroundTakuzu.png" />
+    <None Remove="Images\dojomasterDialog.png" />
     <None Remove="Images\enemyNinja.png" />
     <None Remove="Images\enemySensei.png" />
     <None Remove="Images\enemySkeleton.png" />
     <None Remove="Images\forestPath.png" />
     <None Remove="Images\player.bmp" />
     <None Remove="Images\player.png" />
+    <None Remove="Images\princessDialog1.png" />
+    <None Remove="Images\princessDialog2.png" />
     <None Remove="Images\shack.png" />
     <None Remove="Images\surface.png" />
     <None Remove="Images\surfaceCollision.png" />
+    <None Remove="Images\talkDojoMaster.png" />
     <None Remove="Images\talkPrincess.png" />
+    <None Remove="Images\TileBlue.png" />
+    <None Remove="Images\TileEmpty.png" />
+    <None Remove="Images\TileGreen.png" />
     <None Remove="Images\townlower.png" />
     <None Remove="Images\townMiddle.png" />
     <None Remove="Images\townUpper.png" />
@@ -25,6 +33,12 @@
 
   <ItemGroup>
     <Content Include="Images\abandonedHouse.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\backgroundTakuzu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\dojomasterDialog.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\enemyNinja.png">
@@ -42,6 +56,12 @@
     <Content Include="Images\player.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\princessDialog1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\princessDialog2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\shack.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -51,7 +71,19 @@
     <Content Include="Images\surfaceCollision.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\talkDojoMaster.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\talkPrincess.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TileBlue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TileEmpty.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TileGreen.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\townlower.png">
@@ -68,6 +100,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Toolkit.Mvvm" Version="7.1.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Takuzu\TakuzuGame.csproj" />
   </ItemGroup>
 
 </Project>

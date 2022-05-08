@@ -12,7 +12,6 @@ C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\bin\Debug\net5.0-windows\
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\TakuzuGame.csproj.AssemblyReference.cache
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\MainWindow.g.cs
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\EightByEight.g.cs
-C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\FourByFour.g.cs
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\Landing.g.cs
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\SixBySix.g.cs
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\TenByTen.g.cs
@@ -24,7 +23,6 @@ C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\TakuzuGame_MarkupCompile.lref
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\MainWindow.baml
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\EightByEight.baml
-C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\FourByFour.baml
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\Landing.baml
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\SixBySix.baml
 C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\TenByTen.baml
@@ -128,3 +126,6 @@ C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\TakuzuGame.pdb
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\TakuzuGame.genruntimeconfig.cache
 C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\TakuzuGame.csproj.AssemblyReference.cache
+C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\bin\Debug\net5.0-windows\Images\backgroundTakuzu.png
+C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\Game.g.cs
+C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\Pages\Game.baml

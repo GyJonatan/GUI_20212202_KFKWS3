@@ -25,13 +25,30 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.Toolkit.Mvvm": "7.1.2",
-          "Newtonsoft.Json": "13.0.1"
+          "Newtonsoft.Json": "13.0.1",
+          "TakuzuGame": "1.0.0"
         },
         "compile": {
           "bin/placeholder/StoryMode.dll": {}
         },
         "runtime": {
           "bin/placeholder/StoryMode.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "TakuzuGame/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/TakuzuGame.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TakuzuGame.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -97,6 +114,11 @@
       "type": "project",
       "path": "../StoryMode/StoryMode.csproj",
       "msbuildProject": "../StoryMode/StoryMode.csproj"
+    },
+    "TakuzuGame/1.0.0": {
+      "type": "project",
+      "path": "../Takuzu/TakuzuGame.csproj",
+      "msbuildProject": "../Takuzu/TakuzuGame.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -106,19 +128,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\zsomb\\.nuget\\packages\\": {}
+    "C:\\Users\\gyurk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zsomb\\Source\\Repos\\GUI_20212202_KFKWS3\\MainMenu\\MainMenu.csproj",
+      "projectUniqueName": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\MainMenu\\MainMenu.csproj",
       "projectName": "MainMenu",
-      "projectPath": "C:\\Users\\zsomb\\Source\\Repos\\GUI_20212202_KFKWS3\\MainMenu\\MainMenu.csproj",
-      "packagesPath": "C:\\Users\\zsomb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zsomb\\Source\\Repos\\GUI_20212202_KFKWS3\\MainMenu\\obj\\",
+      "projectPath": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\MainMenu\\MainMenu.csproj",
+      "packagesPath": "C:\\Users\\gyurk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\MainMenu\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\zsomb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gyurk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -132,8 +159,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\zsomb\\Source\\Repos\\GUI_20212202_KFKWS3\\StoryMode\\StoryMode.csproj": {
-              "projectPath": "C:\\Users\\zsomb\\Source\\Repos\\GUI_20212202_KFKWS3\\StoryMode\\StoryMode.csproj"
+            "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\StoryMode\\StoryMode.csproj": {
+              "projectPath": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\StoryMode\\StoryMode.csproj"
             }
           }
         }
@@ -171,7 +198,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

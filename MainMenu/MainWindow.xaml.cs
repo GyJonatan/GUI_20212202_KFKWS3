@@ -33,9 +33,9 @@ namespace Halcyon.MainMenu
 
         private void Play(object sender, RoutedEventArgs e)
         {
-            var Playform = new Halcyon.StoryMode.MainWindow();
-            Playform.Show();
+            var Playform = new StoryMode.MainWindow();
 
+            Playform.Show();
         }
     }
 }

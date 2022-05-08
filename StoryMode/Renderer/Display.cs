@@ -36,6 +36,8 @@ namespace Halcyon.StoryMode.Renderer
                                    (new BitmapImage(new Uri(Path.Combine("Images", "surface.png"), UriKind.RelativeOrAbsolute))), new Pen(Brushes.Black, 0),
                                     new Rect(0, 0, size.Width, size.Height));
 
+            
+
 
             for (int i = 0; i < model.GameMatrix.GetLength(0); i++)
             {
@@ -45,7 +47,7 @@ namespace Halcyon.StoryMode.Renderer
 
                     switch (model.GameMatrix[i,j])
                     {
-                        case GameLogic.MapItems.player:
+                        case MapItems.player:
                             brush = new ImageBrush
                                    (new BitmapImage(new Uri(Path.Combine("Images", "player.png"), UriKind.RelativeOrAbsolute)));
                             break;
@@ -53,21 +55,25 @@ namespace Halcyon.StoryMode.Renderer
                         //    break;
                         //case GameLogic.MapItems.wall:
                         //    break;
-                        case GameLogic.MapItems.fightSkeleton:
+                        case MapItems.fightSkeleton:
                             brush = new ImageBrush
                                    (new BitmapImage(new Uri(Path.Combine("Images", "enemySkeleton.png"), UriKind.RelativeOrAbsolute)));
                             break;
-                        case GameLogic.MapItems.fightNinja:
+                        case MapItems.fightNinja:
                             brush = new ImageBrush
                                    (new BitmapImage(new Uri(Path.Combine("Images", "enemyNinja.png"), UriKind.RelativeOrAbsolute)));
                             break;
-                        case GameLogic.MapItems.fightSensei:
+                        case MapItems.fightSensei:
                             brush = new ImageBrush
                                    (new BitmapImage(new Uri(Path.Combine("Images", "enemySensei.png"), UriKind.RelativeOrAbsolute)));
                             break;
-                        case GameLogic.MapItems.talkPrincess:
+                        case MapItems.talkPrincess:
                             brush = new ImageBrush
                                    (new BitmapImage(new Uri(Path.Combine("Images", "talkPrincess.png"), UriKind.RelativeOrAbsolute)));
+                            break;
+                        case MapItems.Dojo:
+                            brush = new ImageBrush
+                                   (new BitmapImage(new Uri(Path.Combine("Images", "talkDojoMaster.png"), UriKind.RelativeOrAbsolute)));
                             break;
                         default:
                             break;
@@ -80,5 +86,6 @@ namespace Halcyon.StoryMode.Renderer
                 }
             }
         }
+        
     }
 }

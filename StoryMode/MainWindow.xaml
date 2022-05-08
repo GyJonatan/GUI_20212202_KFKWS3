@@ -6,9 +6,10 @@
         xmlns:local="clr-namespace:Halcyon.StoryMode"
         xmlns:renderer="clr-namespace:Halcyon.StoryMode.Renderer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded">
-    <!--WindowState="Maximized"
-        WindowStyle="None"-->
+        Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded"
+        WindowState="Maximized"
+        WindowStyle="None">
+    
         
     
     <!--<Window.Background>

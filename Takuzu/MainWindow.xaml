@@ -3,14 +3,25 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Halcyon.TakuzuGame"
+        xmlns:local="clr-namespace:Halcyon.TakuzuGame" 
+        xmlns:logic="clr-namespace:Halcyon.TakuzuGame.Logic"
         mc:Ignorable="d"
-        Title="MainWindow" Height="830" Width="1476">
-    <!--WindowState="Maximized" WindowStyle="None"-->
-    <Window.Background>
-        <ImageBrush ImageSource="./Images/backgroundTakuzu.png" />
-    </Window.Background>
+        Title="MainWindow" Height="830" Width="1476" WindowState="Maximized" WindowStyle="None">
+        
+        
+    
     <Grid>
-        <Frame Source="/Pages/Landing.xaml" NavigationUIVisibility="Hidden"/>        
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/backgroundTakuzu.png" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid x:Name="grid" Background="#ead4aa" Height="250" Width="250" Margin="50" Grid.Row="0">
+        </Grid>
+        <logic:NavigationButton x:Name="finishButton" Text="Finish" ImageSource="/Images/TileEmpty.png" Click="Finish_Click" Height="200" Width="200" 
+                                Grid.Row="1" IsEnabled="False" Visibility="Hidden"/>     
     </Grid>
 </Window>

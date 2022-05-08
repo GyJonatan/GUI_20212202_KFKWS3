@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MJcryfkpJLjzzP0FC8Pzo/cpgb6hYNy/7KJ5RuvytDXnLxfwg4tSBn5DMSrfXWDoiWDyGtIt7FxZwg30ikKV/Q==",
+  "dgSpecHash": "fLQ3WArU28wI9Dz5muh5P3EXb4+pXIgvuE3iFDiTnGW0t9WjgHr4IFiYyN02kIKb436Cg/QZrCoICQ0CbCB3Fw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zsomb\\Source\\Repos\\GUI_20212202_KFKWS3\\MainMenu\\MainMenu.csproj",
+  "projectFilePath": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\MainMenu\\MainMenu.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zsomb\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
-    "C:\\Users\\zsomb\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\gyurk\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.1.2\\microsoft.toolkit.mvvm.7.1.2.nupkg.sha512",
+    "C:\\Users\\gyurk\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

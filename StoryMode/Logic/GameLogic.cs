@@ -1,4 +1,5 @@
 ﻿using Halcyon.StoryMode.Models;
+using Halcyon.StoryMode.Renderer;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -9,12 +10,14 @@ using System.Threading.Tasks;
 
 namespace Halcyon.StoryMode.Logic
 {
+    public enum MapItems
+    {
+        player, road, wall, talkPrincess, Dojo, fightSkeleton, fightNinja, fightSensei,
+    }
+
     public class GameLogic : IGameLogic, IGameControl
     {
-        public enum MapItems
-        {
-            player, road, wall, talkPrincess, Dojo, fightSkeleton, fightNinja, fightSensei,
-        }
+        
 
         public MapItems[,] GameMatrix { get; set; }
        
@@ -42,8 +45,6 @@ namespace Halcyon.StoryMode.Logic
                 max += count;
                 count = 0;
             }
-
-            temp[26, 26] = 9;
 
             GameMatrix = new MapItems[temp.GetLength(0), temp.GetLength(1)];
 
@@ -133,7 +134,12 @@ namespace Halcyon.StoryMode.Logic
             }
             else if (GameMatrix[i, j] == MapItems.fightSensei || GameMatrix[i, j] == MapItems.fightNinja || GameMatrix[i, j] == MapItems.fightSkeleton)
             {
-                //boss-fightok
+                var form = new TakuzuGame.MainWindow();
+
+                form.Show();
+
+                GameMatrix[i, j] = MapItems.road;
+
             }
 
 

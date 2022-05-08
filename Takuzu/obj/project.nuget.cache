@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "m77ivcoDS3p4NmirUeIHSAdeF8rBuMH9uPkKMgLVRzi2Ant6NxLltnBdY9nKyjW+CpFXaRXV7h5saEj+5PLUXA==",
+  "dgSpecHash": "GqcaMdSE+/WQ2ofH2PXJPCTH28Cj4oEPa+//pP5RaWV1WUBZZkWi4P3l77ZcZSkTkPq1vDL6NVParJY9GdufSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zsomb\\Source\\Repos\\GUI_20212202_KFKWS3\\Takuzu\\TakuzuGame.csproj",
+  "projectFilePath": "C:\\Users\\gyurk\\source\\repos\\GUI_20212202_KFKWS3\\Takuzu\\TakuzuGame.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zsomb\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\gyurk\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

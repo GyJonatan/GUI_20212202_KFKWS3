@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Halcyon.MainMenu"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" FontSize="16" FontFamily="Impact" AllowsTransparency="True" WindowStyle="None">
+        Title="MainWindow" Height="450" Width="800"
+        WindowState="Maximized"
+        WindowStyle="None">
 
     <Window.Background>
         <ImageBrush ImageSource="/Images/hatter.png"/>
