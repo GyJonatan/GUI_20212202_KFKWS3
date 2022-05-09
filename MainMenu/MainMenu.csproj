@@ -9,10 +9,13 @@
   <ItemGroup>
     <None Remove="Images\backgroundTakuzu.png" />
     <None Remove="Images\credit.png" />
+    <None Remove="Images\dojomasterDialog.png" />
     <None Remove="Images\ez.png" />
     <None Remove="Images\hatter.png" />
     <None Remove="Images\Minta.png" />
     <None Remove="Images\play.png" />
+    <None Remove="Images\princessDialog1.png" />
+    <None Remove="Images\princessDialog2.png" />
     <None Remove="Images\quit.png" />
     <None Remove="Images\surface.png" />
     <None Remove="Images\surfaceCollision.png" />
@@ -32,6 +35,9 @@
     <Content Include="Images\credit.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\dojomasterDialog.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\ez.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -42,6 +48,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\play.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\princessDialog1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\princessDialog2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\quit.png">

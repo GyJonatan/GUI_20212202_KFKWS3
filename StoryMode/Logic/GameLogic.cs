@@ -83,6 +83,7 @@ namespace Halcyon.StoryMode.Logic
         { 
             up, down, left, right
         }
+        private static int bossCount = 0;
         public void Move(Directions direction)
         {
             var coords = WhereAmI();
@@ -120,6 +121,7 @@ namespace Halcyon.StoryMode.Logic
                     break;
             }
 
+            
 
             if (GameMatrix[i, j] == MapItems.road)
             {
@@ -128,28 +130,36 @@ namespace Halcyon.StoryMode.Logic
             }
             else if (GameMatrix[i, j] == MapItems.Dojo)
             {
-                var page = (MainWindow)Application.Current.MainWindow;          
+                var page = (StoryMode.MainWindow)Application.Current.MainWindow;          
                 //page.Content = new DojoDialog();
 
 
                 page.Show();
                 page.ShowDojomasterDialog();
             }
-            else if (GameMatrix[i, j] == MapItems.talkPrincess)
+            else if (GameMatrix[i, j] == MapItems.talkPrincess && bossCount != 3)
             {
+
+                    var page = (MainWindow)Application.Current.MainWindow;
+                    page.ShowPrincessDialog1();
+
+            }
+            else if (GameMatrix[i, j] == MapItems.talkPrincess && bossCount == 3)
+            {
+
                 var page = (MainWindow)Application.Current.MainWindow;
-                page.ShowPrincessDialog1();
+                page.ShowPrincessDialog2();
+
             }
             else if (GameMatrix[i, j] == MapItems.fightSensei || GameMatrix[i, j] == MapItems.fightNinja || GameMatrix[i, j] == MapItems.fightSkeleton)
             {
+                bossCount++;
                 var form = new TakuzuGame.MainWindow();
 
                 form.Show();
 
-                GameMatrix[i, j] = MapItems.road;
+                GameMatrix[i, j] = MapItems.road;               
             }
-
-
         }
 
         private int[] WhereAmI()

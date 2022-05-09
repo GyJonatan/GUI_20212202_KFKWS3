@@ -10,10 +10,13 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/backgroundtakuzu.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/credit.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/dojomasterdialog.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/ez.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/hatter.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/minta.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/play.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/princessdialog1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/princessdialog2.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/quit.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/surface.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/surfacecollision.png")]
