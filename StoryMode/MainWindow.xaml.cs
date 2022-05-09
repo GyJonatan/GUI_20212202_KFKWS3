@@ -24,8 +24,10 @@ namespace Halcyon.StoryMode
     public partial class MainWindow : Window
     {
         GameController controller;
+        public static MainWindow Instance;
         public MainWindow()
         {
+            Instance = this;
             InitializeComponent();
             GameLogic logic = new GameLogic();
             display.SetupModel(logic);
@@ -40,6 +42,11 @@ namespace Halcyon.StoryMode
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
+            if (e.Key == Key.Escape)
+            {
+                this.Close();
+            }
+
             controller.KeyPressed(e.Key);
             display.InvalidateVisual();
         }

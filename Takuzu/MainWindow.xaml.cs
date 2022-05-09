@@ -110,5 +110,15 @@ namespace Halcyon.TakuzuGame
         {
             this.Close();
         }
+
+        public void ClosePractice(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+            {
+                this.Close();
+            }
+        }
+
+
     }
 }

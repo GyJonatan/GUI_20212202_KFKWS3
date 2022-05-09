@@ -9,9 +9,13 @@
   <ItemGroup>
     <None Remove="Images\backgroundTakuzu.png" />
     <None Remove="Images\credit.png" />
+    <None Remove="Images\creditPage.png" />
     <None Remove="Images\dojomasterDialog.png" />
     <None Remove="Images\ez.png" />
     <None Remove="Images\hatter.png" />
+    <None Remove="Images\info.png" />
+    <None Remove="Images\infoPage.png" />
+    <None Remove="Images\menuBackground.png" />
     <None Remove="Images\Minta.png" />
     <None Remove="Images\play.png" />
     <None Remove="Images\princessDialog1.png" />
@@ -22,6 +26,7 @@
     <None Remove="Images\TileBlue.png" />
     <None Remove="Images\TileEmpty.png" />
     <None Remove="Images\TileGreen.png" />
+    <None Remove="Images\xgomb.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,16 +40,22 @@
     <Content Include="Images\credit.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\dojomasterDialog.png">
+    <Content Include="Images\creditPage.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\ez.png">
+    <Content Include="Images\dojomasterDialog.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\hatter.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\Minta.png">
+    <Content Include="Images\info.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\infoPage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\menuBackground.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\play.png">
@@ -72,6 +83,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\TileGreen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\xgomb.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

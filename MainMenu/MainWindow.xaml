@@ -5,26 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Halcyon.MainMenu"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
-        WindowState="Maximized"
-        WindowStyle="None">
+        Title="MainWindow" Height="830" Width="1476"
+            WindowState="Maximized"
+        WindowStyle="None"
+        KeyDown="HideImage">
+
 
     <Window.Background>
         <ImageBrush ImageSource="/Images/hatter.png"/>
     </Window.Background>
+    
     <Grid>
         
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
-        
 
-        <StackPanel Grid.Column="1">
-            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/play.png" Margin="0,70,0,0" Click="Play"/>
-            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/Credit.png" Margin="50"/>
-            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/quit.png" Click="Exit" Margin="0"/>
-        </StackPanel>
+        <Grid Grid.Column="1" Margin="190,150,190,150">
+            <Grid.Background>
+                <ImageBrush ImageSource="/Images/menuBackground.png" />
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/> <!--URES-->
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/> <!--URES-->
+            </Grid.RowDefinitions>
+
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/play.png" Margin="0" Click="Play" Grid.Row="1" />
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/info.png" Margin="0" Click="Info" Grid.Row="2" />
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/credit.png" Margin="0" Click="Credit" Grid.Row="3" />
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/quit.png"  Margin="0" Click="Exit"  Grid.Row="4"/>
+
+            
+
+        </Grid>
+        
+        <Image x:Name="dialogBox" Stretch="Fill" Height="780" Width="390" VerticalAlignment="Center" Visibility="Hidden" Margin="150" Grid.Column ="1"/>
+        
+        
+        <!--<StackPanel Grid.Column="1">
+            <Image x:Name="dialogBox" Stretch="Fill" Height="600" Width="300" VerticalAlignment="Center" Visibility="Hidden" Margin="0,150,0,0"/>
+            
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/play.png" Margin="0" Click="Play" />
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/info.png" Margin="0" Click="Info" />
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/credit.png" Margin="0" Click="Credit" />
+            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/quit.png"  Margin="0" Click="Exit" />
+        </StackPanel>-->
 
     </Grid>
 </Window>

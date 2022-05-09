@@ -7,9 +7,10 @@
         xmlns:renderer="clr-namespace:Halcyon.StoryMode.Renderer"
         xmlns:logic="clr-namespace:Halcyon.StoryMode.Logic"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded"
-        WindowState="Maximized"
+        Title="MainWindow" Height="830" Width="1476" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded"   
+         WindowState="Maximized"
         WindowStyle="None">
+   
     
         
     

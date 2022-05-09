@@ -10,10 +10,12 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/backgroundtakuzu.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/credit.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/creditpage.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/dojomasterdialog.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/ez.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/hatter.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/minta.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/info.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/infopage.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/menubackground.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/play.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/princessdialog1.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/princessdialog2.png")]
@@ -23,5 +25,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tileblue.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tileempty.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tilegreen.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/xgomb.png")]
 
 

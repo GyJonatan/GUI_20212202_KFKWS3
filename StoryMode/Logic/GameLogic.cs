@@ -130,26 +130,26 @@ namespace Halcyon.StoryMode.Logic
             }
             else if (GameMatrix[i, j] == MapItems.Dojo)
             {
-                var page = (StoryMode.MainWindow)Application.Current.MainWindow;          
-                //page.Content = new DojoDialog();
+                //var page = (StoryMode.MainWindow)Application.Current.MainWindow;          
+                ////page.Content = new DojoDialog();
+                //page.Show();
+                //page.ShowDojomasterDialog();
 
-
-                page.Show();
-                page.ShowDojomasterDialog();
+                StoryMode.MainWindow.Instance.ShowDojomasterDialog();
             }
             else if (GameMatrix[i, j] == MapItems.talkPrincess && bossCount != 3)
             {
+                //var page = (MainWindow)Application.Current.MainWindow;
+                //page.ShowPrincessDialog1();
 
-                    var page = (MainWindow)Application.Current.MainWindow;
-                    page.ShowPrincessDialog1();
-
+                StoryMode.MainWindow.Instance.ShowPrincessDialog1();
             }
             else if (GameMatrix[i, j] == MapItems.talkPrincess && bossCount == 3)
             {
+                //var page = (MainWindow)Application.Current.MainWindow;
+                //page.ShowPrincessDialog2();
 
-                var page = (MainWindow)Application.Current.MainWindow;
-                page.ShowPrincessDialog2();
-
+                StoryMode.MainWindow.Instance.ShowPrincessDialog2();
             }
             else if (GameMatrix[i, j] == MapItems.fightSensei || GameMatrix[i, j] == MapItems.fightNinja || GameMatrix[i, j] == MapItems.fightSkeleton)
             {

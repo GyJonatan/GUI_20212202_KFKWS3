@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Halcyon.TakuzuGame" 
         xmlns:logic="clr-namespace:Halcyon.TakuzuGame.Logic"
         mc:Ignorable="d"
-        Title="MainWindow" Height="830" Width="1476" WindowState="Maximized" WindowStyle="None">
+        Title="MainWindow" Height="830" Width="1476" WindowState="Maximized" WindowStyle="None" KeyDown="ClosePractice">
         
         
     

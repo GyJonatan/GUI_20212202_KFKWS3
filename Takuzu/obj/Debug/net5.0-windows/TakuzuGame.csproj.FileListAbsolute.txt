@@ -172,4 +172,3 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\T
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\ref\TakuzuGame.dll
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\TakuzuGame.pdb
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\TakuzuGame.genruntimeconfig.cache
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\TakuzuGame.csproj.AssemblyReference.cache

@@ -153,9 +153,7 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\townMiddle.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\townUpper.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\credit.png
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\ez.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\hatter.png
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\Minta.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\play.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\quit.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\surface.png
@@ -192,3 +190,8 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\ref\MainMenu.dll
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainMenu.pdb
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainMenu.genruntimeconfig.cache
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\creditPage.png
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\info.png
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\infoPage.png
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\menuBackground.png
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\Images\xgomb.png

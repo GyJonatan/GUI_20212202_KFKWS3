@@ -30,12 +30,42 @@ namespace Halcyon.MainMenu
            System.Environment.Exit(0);
 
         }
-
+        private void Credit(object sender, RoutedEventArgs e)
+        {
+            ShowCreditPage();
+        }
+        private void Info(object sender, RoutedEventArgs e)
+        {
+            ShowInfoPage();
+        }
         private void Play(object sender, RoutedEventArgs e)
         {
             var Playform = new StoryMode.MainWindow();
 
             Playform.Show();
+            //this.Close();
+        }
+
+        public void ShowCreditPage()
+        {
+            dialogBox.Visibility = Visibility.Visible;
+            dialogBox.Source = new BitmapImage(new Uri("/Images/creditPage.png", UriKind.RelativeOrAbsolute));
+
+        }
+
+        public void ShowInfoPage()
+        {
+            dialogBox.Visibility = Visibility.Visible;
+            dialogBox.Source = new BitmapImage(new Uri("/Images/infoPage.png", UriKind.RelativeOrAbsolute));
+
+        }
+        public void HideImage(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape && dialogBox.Visibility == Visibility.Visible)
+            {
+                dialogBox.Visibility = Visibility.Hidden;
+                e.Handled = true;
+            }         
         }
     }
 }
