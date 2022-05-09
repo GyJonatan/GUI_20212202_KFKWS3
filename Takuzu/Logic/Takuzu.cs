@@ -27,12 +27,10 @@ namespace Halcyon.TakuzuGame.Logic
             this.Solution = new State[dim,dim];
 
 
-            ImportFbf(dim);
-            ;
-            //Import(dim);
+            Import(dim);
         }
 
-        private void ImportFbf(int dim)
+        private void Import(int dim)
         {
             Random rnd = new Random();
             string json = File.ReadAllText("start.json");
@@ -90,19 +88,7 @@ namespace Halcyon.TakuzuGame.Logic
         public Takuzu getCopy()
         {
             return new Takuzu(Dimension) { Map = this.Map };
-        }
-        void Import(int dim)
-        {
-            Random rnd = new Random();
-            string json = File.ReadAllText(Directory.GetCurrentDirectory() + "/takuzus.json");
-            var takuzus = JsonConvert.DeserializeObject<List<Takuzu>>(json).Where(x => x.Dimension == dim);
-            Takuzu sel = takuzus.ElementAt(rnd.Next(0, takuzus.Count()));
-
-            this.Dimension = sel.Dimension;
-            this.Map = sel.Map;
-
-            
-        }        
+        }    
 
         public void SetState(int x, int y, State state)
         {

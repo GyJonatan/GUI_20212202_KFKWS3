@@ -37,8 +37,6 @@ namespace Halcyon.StoryMode.Renderer
                                     new Rect(0, 0, size.Width, size.Height));
 
             
-
-
             for (int i = 0; i < model.GameMatrix.GetLength(0); i++)
             {
                 for (int j = 0; j < model.GameMatrix.GetLength(1); j++)
@@ -51,10 +49,6 @@ namespace Halcyon.StoryMode.Renderer
                             brush = new ImageBrush
                                    (new BitmapImage(new Uri(Path.Combine("Images", "player.png"), UriKind.RelativeOrAbsolute)));
                             break;
-                        //case GameLogic.MapItems.road:
-                        //    break;
-                        //case GameLogic.MapItems.wall:
-                        //    break;
                         case MapItems.fightSkeleton:
                             brush = new ImageBrush
                                    (new BitmapImage(new Uri(Path.Combine("Images", "enemySkeleton.png"), UriKind.RelativeOrAbsolute)));
@@ -85,7 +79,6 @@ namespace Halcyon.StoryMode.Renderer
                                     );
                 }
             }
-        }
-        
+        }      
     }
 }

@@ -25,31 +25,5 @@ namespace Halcyon.TakuzuGame.Logic
         {
             return this.isClickable = !this.isClickable;
         }
-
-
-        //static PebbleButton()
-        //{
-        //    DefaultStyleKeyProperty.OverrideMetadata(typeof(PebbleButton), new FrameworkPropertyMetadata(typeof(PebbleButton)));
-        //}
-
-        //public static readonly DependencyProperty ImageSourceProperty = 
-        //    DependencyProperty.Register("ImageSource", typeof(ImageSource), typeof(PebbleButton), new PropertyMetadata(null));
-        //public ImageSource ImageSource
-        //{
-        //    get { return (ImageSource)GetValue(ImageSourceProperty); }
-        //    set { SetValue(ImageSourceProperty, value); }
-        //}
-
-
-        //public State pebbleState
-        //{
-        //    get { return (State)GetValue(pebbleStateProperty); }
-        //    set { SetValue(pebbleStateProperty, value); }
-        //}
-
-        //public static readonly DependencyProperty pebbleStateProperty =
-        //    DependencyProperty.Register("pebbleState", typeof(State), typeof(PebbleButton), new PropertyMetadata(null));
-
-
     }
 }

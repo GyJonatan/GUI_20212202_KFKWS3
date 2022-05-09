@@ -1,6 +1,5 @@
 ﻿using Halcyon.StoryMode.Controller;
 using Halcyon.StoryMode.Logic;
-using StoryMode.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,9 +17,6 @@ using System.Windows.Shapes;
 
 namespace Halcyon.StoryMode
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         GameController controller;
@@ -88,23 +84,12 @@ namespace Halcyon.StoryMode
             dialogBox.Visibility = Visibility.Hidden;
         }
 
-        //private void EnterTraining_Click(object sender, RoutedEventArgs e, NavigationService navigationService)
-        //{
-        //    var form = new TakuzuGame.MainWindow();
-        //    form.ShowDialog();
-
-        //    var ClickedButton = e.OriginalSource as NavigationButton;
-        //    navigationService.Navigate(ClickedButton.NavUri);
-        //}
-
         private void EnterTraining_Click(object sender, RoutedEventArgs e)
         {
             var form = new Halcyon.TakuzuGame.MainWindow();
             form.ShowDialog();
 
             var ClickedButton = e.OriginalSource as NavigationButton;
-
-            //NavigationService.Navigate(ClickedButton.NavUri);
         }
 
         private void Leave_Click(object sender, RoutedEventArgs e)

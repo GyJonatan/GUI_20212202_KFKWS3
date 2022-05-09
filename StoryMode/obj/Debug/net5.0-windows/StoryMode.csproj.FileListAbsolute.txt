@@ -194,10 +194,4 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-window
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-windows\Images\TileGreen.png
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-windows\TakuzuGame.dll
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\bin\Debug\net5.0-windows\TakuzuGame.pdb
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\Pages\DojoDialog.g.cs
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\Pages\PrincessDialog1.g.cs
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\Pages\PrincessDialog2.g.cs
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\Pages\DojoDialog.baml
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\Pages\PrincessDialog1.baml
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\Pages\PrincessDialog2.baml
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\StoryMode\obj\Debug\net5.0-windows\Themes\Generic.baml

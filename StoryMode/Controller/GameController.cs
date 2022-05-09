@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 namespace Halcyon.StoryMode.Controller
 {
-    class GameController //DONE
+    class GameController
     {
         IGameControl control;
 

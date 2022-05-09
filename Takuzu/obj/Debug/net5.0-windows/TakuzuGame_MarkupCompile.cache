@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\Takuzu\App.xaml
-856297185
+31409461756
 5302881878
-15-1949733392
+10-2052204356
 194-635235566
-MainWindow.xaml;Pages\EightByEight.xaml;Pages\Game.xaml;Pages\Landing.xaml;Pages\SixBySix.xaml;Pages\TenByTen.xaml;Pages\TwelveByTwelve.xaml;Themes\Generic.xaml;
+MainWindow.xaml;Pages\Game.xaml;Themes\Generic.xaml;
 
 False
 

@@ -40,21 +40,9 @@
             <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/credit.png" Margin="0" Click="Credit" Grid.Row="3" />
             <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/quit.png"  Margin="0" Click="Exit"  Grid.Row="4"/>
 
-            
-
         </Grid>
-        
+
         <Image x:Name="dialogBox" Stretch="Fill" Height="780" Width="390" VerticalAlignment="Center" Visibility="Hidden" Margin="150" Grid.Column ="1"/>
-        
-        
-        <!--<StackPanel Grid.Column="1">
-            <Image x:Name="dialogBox" Stretch="Fill" Height="600" Width="300" VerticalAlignment="Center" Visibility="Hidden" Margin="0,150,0,0"/>
-            
-            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/play.png" Margin="0" Click="Play" />
-            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/info.png" Margin="0" Click="Info" />
-            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/credit.png" Margin="0" Click="Credit" />
-            <local:NavButton   HorizontalAlignment="Center" VerticalAlignment="Center" ImageSource="/Images/quit.png"  Margin="0" Click="Exit" />
-        </StackPanel>-->
 
     </Grid>
 </Window>

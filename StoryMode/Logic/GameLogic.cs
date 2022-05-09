@@ -1,7 +1,5 @@
-﻿using Halcyon.StoryMode.Models;
-using Halcyon.StoryMode.Renderer;
+﻿using Halcyon.StoryMode.Renderer;
 using Newtonsoft.Json;
-using StoryMode.Pages;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,9 +17,7 @@ namespace Halcyon.StoryMode.Logic
     }
 
     public class GameLogic : IGameLogic, IGameControl
-    {
-        
-
+    {       
         public MapItems[,] GameMatrix { get; set; }
        
         public GameLogic()
@@ -78,6 +74,7 @@ namespace Halcyon.StoryMode.Logic
             }
         }
 
+
         //MOVEMENT
         public enum Directions
         { 
@@ -129,26 +126,15 @@ namespace Halcyon.StoryMode.Logic
                 GameMatrix[old_i, old_j] = MapItems.road;
             }
             else if (GameMatrix[i, j] == MapItems.Dojo)
-            {
-                //var page = (StoryMode.MainWindow)Application.Current.MainWindow;          
-                ////page.Content = new DojoDialog();
-                //page.Show();
-                //page.ShowDojomasterDialog();
-
+            {                
                 StoryMode.MainWindow.Instance.ShowDojomasterDialog();
             }
             else if (GameMatrix[i, j] == MapItems.talkPrincess && bossCount != 3)
-            {
-                //var page = (MainWindow)Application.Current.MainWindow;
-                //page.ShowPrincessDialog1();
-
+            {               
                 StoryMode.MainWindow.Instance.ShowPrincessDialog1();
             }
             else if (GameMatrix[i, j] == MapItems.talkPrincess && bossCount == 3)
-            {
-                //var page = (MainWindow)Application.Current.MainWindow;
-                //page.ShowPrincessDialog2();
-
+            {           
                 StoryMode.MainWindow.Instance.ShowPrincessDialog2();
             }
             else if (GameMatrix[i, j] == MapItems.fightSensei || GameMatrix[i, j] == MapItems.fightNinja || GameMatrix[i, j] == MapItems.fightSkeleton)

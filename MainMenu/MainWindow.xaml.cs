@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace Halcyon.MainMenu
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -43,7 +40,6 @@ namespace Halcyon.MainMenu
             var Playform = new StoryMode.MainWindow();
 
             Playform.Show();
-            //this.Close();
         }
 
         public void ShowCreditPage()

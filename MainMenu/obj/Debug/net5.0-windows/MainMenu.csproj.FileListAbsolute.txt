@@ -171,14 +171,12 @@ C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\bin\Debug\net5.0-windows\TakuzuGame.pdb
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainMenu.csproj.AssemblyReference.cache
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainWindow.g.cs
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\Pages\Credit.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainMenu_Content.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainMenu_MarkupCompile.cache
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainMenu_MarkupCompile.lref
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainWindow.baml
-C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\Pages\Credit.baml
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\Themes\Generic.baml
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainMenu.g.resources
 C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\MainMenu\obj\Debug\net5.0-windows\MainMenu.GeneratedMSBuildEditorConfig.editorconfig
