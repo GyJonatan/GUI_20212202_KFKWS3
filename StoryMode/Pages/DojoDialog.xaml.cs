@@ -24,6 +24,9 @@ namespace StoryMode.Pages
         public DojoDialog()
         {
             InitializeComponent();
+            //GameLogic logic = new GameLogic();
+            //display.SetupModel(logic);
+
         }
 
         private void EnterTraining_Click(object sender, RoutedEventArgs e)
@@ -38,6 +41,8 @@ namespace StoryMode.Pages
 
         private void Leave_Click(object sender, RoutedEventArgs e)
         {
+            //this.Close();
+            
             
         }
     }

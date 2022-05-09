@@ -8,6 +8,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
 
 namespace Halcyon.StoryMode.Logic
 {
@@ -126,13 +128,17 @@ namespace Halcyon.StoryMode.Logic
             }
             else if (GameMatrix[i, j] == MapItems.Dojo)
             {
-                var page = new MainWindow();
-                page.ShowDojomasterDialog();
+                var page = (MainWindow)Application.Current.MainWindow;          
+                //page.Content = new DojoDialog();
 
+
+                page.Show();
+                page.ShowDojomasterDialog();
             }
             else if (GameMatrix[i, j] == MapItems.talkPrincess)
             {
-                //beszelgetos_ablak
+                var page = (MainWindow)Application.Current.MainWindow;
+                page.ShowPrincessDialog1();
             }
             else if (GameMatrix[i, j] == MapItems.fightSensei || GameMatrix[i, j] == MapItems.fightNinja || GameMatrix[i, j] == MapItems.fightSkeleton)
             {
@@ -141,7 +147,6 @@ namespace Halcyon.StoryMode.Logic
                 form.Show();
 
                 GameMatrix[i, j] = MapItems.road;
-
             }
 
 

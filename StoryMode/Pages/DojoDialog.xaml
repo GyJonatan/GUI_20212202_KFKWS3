@@ -8,13 +8,21 @@
       mc:Ignorable="d" 
       d:DesignHeight="266" d:DesignWidth="1309"
       Title="DojoDialog">
-
+    
+    <!--<Page.Background>
+        <SolidColorBrush Opacity="0" Color="Transparent" />
+    </Page.Background>-->
+    
     <Grid Height="266" Width="1309" VerticalAlignment="Bottom">
         <Grid.Background>
             <ImageBrush ImageSource="/Images/dojomasterDialog.png" />
         </Grid.Background>
+        <!--<Grid.Background>
+            <SolidColorBrush Opacity="0" Color="Transparent" />
+        </Grid.Background>-->
 
         <root:NavigationButton Click="EnterTraining_Click" Margin="980,175,197,27" Width="132" Height="64" NavUri="/MainWindow.xaml" />
         <root:NavigationButton Click="Leave_Click" Margin="1143,175,34,27" Width="132" Height="64" NavUri="/MainWindow.xaml"/>
+  
     </Grid>
 </Page>

@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MainMenu",
-    "\\MainMenu\\Pages",
-    "\\MainMenu\\Themes"
+    "\\StoryMode",
+    "\\StoryMode\\Logic"
   ],
-  "SelectedNode": "\\MainMenu\\Themes\\Generic.xaml",
+  "SelectedNode": "\\StoryMode\\Logic\\GameLogic.cs",
   "PreviewInSolutionExplorer": false
 }

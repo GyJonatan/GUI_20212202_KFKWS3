@@ -51,16 +51,27 @@ namespace Halcyon.StoryMode
 
         public void ShowPrincessDialog1()
         {
+            leaveButton.Visibility = Visibility.Visible;
+            leaveButton.IsEnabled = true;
+
             dialogBox.Visibility = Visibility.Visible;
             dialogBox.Source = new BitmapImage(new Uri("/Images/princessDialog1.png", UriKind.RelativeOrAbsolute));
         }
         public void ShowPrincessDialog2()
         {
+            leaveButton.Visibility = Visibility.Visible;
+            leaveButton.IsEnabled = true;
+
             dialogBox.Visibility = Visibility.Visible;
             dialogBox.Source = new BitmapImage(new Uri("/Images/princessDialog2.png", UriKind.RelativeOrAbsolute));
         }
         public void ShowDojomasterDialog()
         {
+            trainingButton.Visibility = Visibility.Visible;
+            trainingButton.IsEnabled = true;
+            leaveButton.Visibility = Visibility.Visible;
+            leaveButton.IsEnabled = true;
+
             dialogBox.Visibility = Visibility.Visible;
             dialogBox.Source = new BitmapImage(new Uri("/Images/dojomasterDialog.png", UriKind.RelativeOrAbsolute));
 
@@ -69,13 +80,34 @@ namespace Halcyon.StoryMode
         {
             dialogBox.Visibility = Visibility.Hidden;
         }
-        private void EnterTraining_Click(object sender, RoutedEventArgs e, NavigationService navigationService)
+
+        //private void EnterTraining_Click(object sender, RoutedEventArgs e, NavigationService navigationService)
+        //{
+        //    var form = new TakuzuGame.MainWindow();
+        //    form.ShowDialog();
+
+        //    var ClickedButton = e.OriginalSource as NavigationButton;
+        //    navigationService.Navigate(ClickedButton.NavUri);
+        //}
+
+        private void EnterTraining_Click(object sender, RoutedEventArgs e)
         {
-            var form = new TakuzuGame.MainWindow();
+            var form = new Halcyon.TakuzuGame.MainWindow();
             form.ShowDialog();
 
             var ClickedButton = e.OriginalSource as NavigationButton;
-            navigationService.Navigate(ClickedButton.NavUri);
+
+            //NavigationService.Navigate(ClickedButton.NavUri);
+        }
+
+        private void Leave_Click(object sender, RoutedEventArgs e)
+        {
+            HideImage();
+
+            trainingButton.Visibility = Visibility.Hidden;
+            trainingButton.IsEnabled = false;
+            leaveButton.Visibility = Visibility.Hidden;
+            leaveButton.IsEnabled = false;
         }
     }
 }

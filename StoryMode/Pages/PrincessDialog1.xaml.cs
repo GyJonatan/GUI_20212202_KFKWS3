@@ -23,6 +23,13 @@ namespace StoryMode.Pages
         public PrincessDialog1()
         {
             //InitializeComponent();
+
+        }
+
+        private void Leave_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Close();
+
         }
     }
 }

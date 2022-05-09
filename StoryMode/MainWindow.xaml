@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Halcyon.StoryMode"
         xmlns:renderer="clr-namespace:Halcyon.StoryMode.Renderer"
+        xmlns:logic="clr-namespace:Halcyon.StoryMode.Logic"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged" Loaded="Window_Loaded"
         WindowState="Maximized"
@@ -16,9 +17,18 @@
         <ImageBrush ImageSource="./Images/surface.png" />
     </Window.Background>-->
 
+    <!--<Window.Background>
+        <SolidColorBrush Opacity="0" Color="Transparent" />
+    </Window.Background>-->
+
     <Grid Name="grid">
         <renderer:Display x:Name="display" />
         <Image Source="/Images/surfaceCollision.png" Stretch="Fill"/>
         <Image x:Name="dialogBox" Stretch="Fill" Height="266" Width="1309" VerticalAlignment="Bottom" Visibility="Hidden"/>
+
+        <!--<logic:NavigationButton x:Name="trainingButton" Click="EnterTraining_Click" Margin="980,175,197,27" Width="132" Height="64" IsEnabled="False" Visibility="Hidden" Text="TESZT" ImageSource="/Images/TileEmpty.png" />
+        <logic:NavigationButton x:Name="leaveButton" Click="Leave_Click" Margin="1143,175,34,27" Width="132" Height="64" IsEnabled="False" Visibility="Hidden" Text="TESZT" ImageSource="/Images/TileEmpty.png"/>-->
+        <logic:NavigationButton x:Name="trainingButton" Click="EnterTraining_Click" Margin="980,990,197,27" Width="132" Height="64" IsEnabled="False" Visibility="Hidden" />
+        <logic:NavigationButton x:Name="leaveButton" Click="Leave_Click" Margin="1143,990,34,27" Width="132" Height="64" IsEnabled="False" Visibility="Hidden" />
     </Grid>
 </Window>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Release\net5.0-windows\
+C:\Users\User\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Release\net5.0-windows\
 TakuzuGame
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-C:\Users\zsomb\Source\Repos\GUI_20212202_KFKWS3\Takuzu\App.xaml
-8811721959
+C:\Users\User\source\repos\GUI_20212202_KFKWS3\Takuzu\App.xaml
+856297185
 5302881878
-151792423876
-194-1978768340
-MainWindow.xaml;Pages\EightByEight.xaml;Pages\FourByFour.xaml;Pages\Landing.xaml;Pages\SixBySix.xaml;Pages\TenByTen.xaml;Pages\TwelveByTwelve.xaml;Themes\Generic.xaml;
+15-1949733392
+194-635235566
+MainWindow.xaml;Pages\EightByEight.xaml;Pages\Game.xaml;Pages\Landing.xaml;Pages\SixBySix.xaml;Pages\TenByTen.xaml;Pages\TwelveByTwelve.xaml;Themes\Generic.xaml;
 
 True
 

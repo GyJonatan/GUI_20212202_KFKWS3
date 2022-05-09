@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/backgroundtakuzu.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/credit.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/ez.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/hatter.png")]
@@ -15,5 +16,9 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/play.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/quit.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/surface.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/surfacecollision.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tileblue.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tileempty.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/tilegreen.png")]
 
 

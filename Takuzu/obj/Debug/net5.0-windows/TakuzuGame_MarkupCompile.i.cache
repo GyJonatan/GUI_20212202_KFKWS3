@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\Takuzu\obj\Debug\net5.0-windows\
 TakuzuGame
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\gyurk\source\repos\GUI_20212202_KFKWS3\Takuzu\App.xaml
+C:\Users\User\Source\Repos\GUI_20212202_KFKWS3\Takuzu\App.xaml
 856297185
 5302881878
 17-1510940271
-194-103489533
+194-635235566
 MainWindow.xaml;Pages\EightByEight.xaml;Pages\Game.xaml;Pages\Landing.xaml;Pages\SixBySix.xaml;Pages\TenByTen.xaml;Pages\TwelveByTwelve.xaml;Themes\Generic.xaml;
 
 True
